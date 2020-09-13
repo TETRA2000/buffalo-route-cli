@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 import logout from './cli/logout';
 import login from './cli/login';
 import info from './cli/info';
-import { getWan, setWan } from './cli/wan/intex';
+import { getWan, setWan } from './cli/wan';
 
 (async () => {
   const browser = await puppeteer.launch();
